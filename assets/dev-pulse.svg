@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="205" viewBox="0 0 900 205" role="img" aria-label="Dev Pulse">
+<rect x="1" y="1" width="898" height="203" rx="18" fill="#101728" stroke="#293550"/>
+<rect x="1" y="28" width="4" height="66" rx="2" fill="#b7a1ff"/>
+<g font-family="'Segoe UI',Arial,sans-serif"><text x="30" y="35" fill="#b7a1ff" font-size="12" letter-spacing="3">02 / DATA + DEVELOPER TOOLS</text>
+<text x="30" y="73" fill="#e5f3f9" font-size="27" font-weight="700">Dev Pulse</text><text x="30" y="104" fill="#bdcadc" font-size="16">A tech intelligence dashboard exploring 47M+ Hacker News posts.</text><text x="30" y="127" fill="#bdcadc" font-size="16">DuckDB and Parquet meet a FastAPI, React and D3.js interface.</text><text x="30" y="178" fill="#b7a1ff" font-size="13">PYTHON  /  FASTAPI  /  REACT  /  D3.JS</text><text x="855" y="75" fill="#b7a1ff" font-size="29">&#8599;</text></g></svg>

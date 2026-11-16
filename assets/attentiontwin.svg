@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="205" viewBox="0 0 900 205" role="img" aria-label="AttentionTwin">
+<rect x="1" y="1" width="898" height="203" rx="18" fill="#101728" stroke="#293550"/>
+<rect x="1" y="28" width="4" height="66" rx="2" fill="#57f2c5"/>
+<g font-family="'Segoe UI',Arial,sans-serif"><text x="30" y="35" fill="#57f2c5" font-size="12" letter-spacing="3">01 / FEATURED BUILD</text>
+<text x="30" y="73" fill="#e5f3f9" font-size="27" font-weight="700">AttentionTwin</text><text x="30" y="104" fill="#bdcadc" font-size="16">A digital wellness app for focus sessions, better breaks and scrolling goals.</text><text x="30" y="127" fill="#bdcadc" font-size="16">Local notification rules, an encrypted inbox and optional Gemini review.</text><text x="30" y="178" fill="#57f2c5" font-size="13">REACT  /  TYPESCRIPT  /  JAVA  /  ANDROID</text><text x="855" y="75" fill="#57f2c5" font-size="29">&#8599;</text></g></svg>
