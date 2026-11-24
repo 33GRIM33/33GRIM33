@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 196 152">
+  <style>
+    .gear { transform-origin:145px 68px; animation:turn 12s linear infinite }
+    .eyes { animation:blink 5s infinite }
+    @keyframes turn { to { transform:rotate(360deg) } }
+    @keyframes blink { 0%,43%,49%,100% {opacity:1} 46% {opacity:.1} }
+    @media (prefers-reduced-motion: reduce) { .motion { animation:none } }
+  </style>
+  <rect x="1" y="1" width="194" height="150" rx="16" fill="#eee7fa" stroke="#b7a2d3"/>
+  <path d="M16 124q26-17 49-7t53 4 62-6" fill="none" stroke="#d8cbea" stroke-width="2"/>
+  <path d="M17 115h159v12H17z" fill="#594868"/>
+  <path d="M28 128v9m137-9v9" stroke="#826b9f" stroke-width="5"/>
+  <path d="M58 81h31l9 33H47z" fill="#6e598a" stroke="#433450" stroke-width="2"/>
+  <path d="M56 91q-19 0-22 16m56-15 15 12 23-13" fill="none" stroke="#69547f" stroke-width="6" stroke-linecap="round"/>
+  <rect x="42" y="47" width="61" height="38" rx="8" fill="#5d4e74" stroke="#423451" stroke-width="2"/>
+  <rect x="49" y="53" width="47" height="24" rx="5" fill="#28243b"/>
+  <path d="M73 46V34m-3 0h6" stroke="#59446e" stroke-width="3" stroke-linecap="round"/>
+  <g class="motion eyes" fill="#b9eee0"><circle cx="62" cy="64" r="3"/><circle cx="83" cy="64" r="3"/></g>
+  <path d="M69 69q4 4 8 0" fill="none" stroke="#b9eee0" stroke-width="2" stroke-linecap="round"/>
+  <g class="motion gear" fill="#b36f70" stroke="#864b60" stroke-width="2">
+    <path d="M140 46h10l1 8 5 2 7-5 7 7-5 7 2 5 8 1v10l-8 1-2 5 5 7-7 7-7-5-5 2-1 8h-10l-1-8-5-2-7 5-7-7 5-7-2-5-8-1V71l8-1 2-5-5-7 7-7 7 5 5-2Z" transform="translate(36 11) scale(.75)"/>
+    <circle cx="145" cy="68" r="8" fill="#eee7fa"/>
+  </g>
+  <path d="M109 114l12-8 23 2-8 7z" fill="#dcc8ef" stroke="#9072ad" stroke-width="2"/>
+</svg>

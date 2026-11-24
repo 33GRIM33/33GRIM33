@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 196 152">
+  <style>
+    .beam { animation:pulse 4s ease-in-out infinite }
+    .point { animation:signal 4s ease-in-out infinite }
+    @keyframes pulse { 50% { opacity:.22 } }
+    @keyframes signal { 50% { transform:translateY(-4px) } }
+    @media (prefers-reduced-motion: reduce) { .motion { animation:none } }
+  </style>
+  <rect x="1" y="1" width="194" height="150" rx="16" fill="#eee7fa" stroke="#b7a2d3"/>
+  <path d="M16 124q26-17 49-7t53 4 62-6" fill="none" stroke="#d8cbea" stroke-width="2"/>
+  <path d="M21 123l45-9 26 8-10 14H27Z" fill="#c9b7e0"/>
+  <path d="M36 125l6-30 23-7 18 33-20 6Z" fill="#55446f" stroke="#332843" stroke-width="2"/>
+  <path d="M46 122l5-17m14 18-2-17" stroke="#9f85bc" stroke-width="2"/>
+  <path d="M40 87q-7-14 3-28l11-19 19 14q13 5 15 22l-8 17Z" fill="#705a8f" stroke="#382e49" stroke-width="2"/>
+  <path d="M58 58q22-2 24 18 0 13-11 16l-16-5q-13-19 3-29Z" fill="#26223b" stroke="#ae9bc7" stroke-width="2"/>
+  <path d="M65 72h4m5 1h3" stroke="#c5f0e9" stroke-width="3" stroke-linecap="round"/>
+  <path class="motion beam" d="M94 94l64-53 23 68Z" fill="#acc9ee" opacity=".63"/>
+  <path d="M106 92l19-17 13 8 23-26 15 7" fill="none" stroke="#564583" stroke-width="2" stroke-dasharray="3 3"/>
+  <g class="motion point" fill="#6555a4" stroke="#f7f1ff" stroke-width="2">
+    <circle cx="125" cy="75" r="4"/><circle cx="138" cy="83" r="4"/>
+    <circle cx="161" cy="57" r="4"/><circle cx="176" cy="64" r="4"/>
+  </g>
+  <path d="M78 101l15-9" stroke="#4d3a68" stroke-width="6" stroke-linecap="round"/>
+  <rect x="90" y="87" width="11" height="9" rx="3" fill="#b9eade" stroke="#584671" stroke-width="2"/>
+</svg>
