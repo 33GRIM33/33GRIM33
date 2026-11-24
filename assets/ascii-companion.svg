@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 176 148">
+  <defs>
+    <radialGradient id="mist">
+      <stop stop-color="#272744" stop-opacity=".96"/>
+      <stop offset=".67" stop-color="#1b1d38" stop-opacity=".7"/>
+      <stop offset="1" stop-color="#181b32" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <style>
+    .shade { animation: drift 4.8s ease-in-out infinite }
+    .eyes { animation: blink 5.6s steps(1,end) infinite }
+    .cursor { animation: blink 1.4s steps(1,end) infinite }
+    .spark { animation: glow 3.6s ease-in-out infinite alternate }
+    .late { animation-delay: -1.8s }
+    @keyframes drift { 50% { transform: translateY(-5px) } }
+    @keyframes blink { 84%,91% { opacity: 0 } }
+    @keyframes glow { from { opacity: .32 } to { opacity: 1 } }
+    @media (prefers-reduced-motion: reduce) {
+      .shade,.eyes,.cursor,.spark { animation:none }
+    }
+  </style>
+  <ellipse cx="88" cy="76" rx="87" ry="71" fill="url(#mist)"/>
+  <g font-family="monospace" font-size="12" text-anchor="middle">
+    <g fill="#a698d5">
+      <text class="spark" x="22" y="57">+</text>
+      <text class="spark late" x="151" y="73">*</text>
+      <text class="spark late" x="37" y="100">.</text>
+      <text class="spark" x="139" y="105">+</text>
+      <text class="spark" x="129" y="37">.</text>
+    </g>
+    <g class="shade" fill="#c0b5e8" xml:space="preserve">
+      <text x="88" y="32">.---.</text>
+      <text x="88" y="44">.'     '.</text>
+      <text x="88" y="56">.-'         '-.</text>
+      <text x="88" y="68">/               \</text>
+      <text x="88" y="80">|               |</text>
+      <text class="eyes" x="88" y="80" fill="#f3e9ff">o   o</text>
+      <text x="88" y="92">|    .-----.    |</text>
+      <text x="88" y="104">\___|     |___/</text>
+      <text x="82" y="102" fill="#b6d0ff">&gt;</text>
+      <text class="cursor" x="94" y="102" fill="#b6d0ff">_</text>
+      <text x="88" y="116">'-----'</text>
+    </g>
+    <text x="88" y="133" fill="#9a8ac2">- - - -</text>
+  </g>
+</svg>
