@@ -4,8 +4,8 @@
      Shade sprite sourced from https://hollowknight.fandom.com/es/wiki/Sombra. -->
 <p align="center">
   <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="assets/city-of-tears-bench-still.webp" />
-    <img src="assets/city-of-tears-bench.webp" width="100%" alt="Lakshya Rajdev. Still looking for a map. The Knight and Quirrel sit on a bench in the rainy City of Tears." />
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/city-of-tears-nameplate-still.webp" />
+    <img src="assets/city-of-tears-nameplate.webp" width="100%" alt="Lakshya Rajdev. Still looking for a map. The Knight and Quirrel sit on a bench in the rainy City of Tears." />
   </picture>
 </p>
 
@@ -31,36 +31,24 @@
       <p>I’m learning Rust and trying out ML ideas in Python. I like reading just enough docs to give something a go. This usually ends with eleven more docs tabs.</p>
     </td>
     <td align="center" valign="middle">
-      <img src="assets/shade-companion.svg" width="178" alt="The Shade from Hollow Knight drifts through a lavender glow" />
+      <img src="assets/shade-drift.svg" width="208" alt="The Shade from Hollow Knight glides through blue fog with rising lavender particles" />
     </td>
   </tr>
 </table>
 
 <h2 align="center">Tech stack</h2>
 
-<table>
-  <tr>
-    <td valign="top" width="52%">
-      <p><strong>Data &amp; ML</strong><br />
-        <img src="assets/workbench-data.svg" width="225" alt="Python, NumPy, pandas, Matplotlib, Jupyter, PyTorch, scikit-learn, TensorFlow, SciPy, and OpenCV" /></p>
-      <p><strong>Web &amp; APIs</strong><br />
-        <img src="assets/workbench-web.svg" width="225" alt="TypeScript, React, FastAPI, Flask, and D3.js" /></p>
-      <p><strong>Systems &amp; tools</strong><br />
-        <img src="assets/workbench-systems.svg" width="225" alt="Rust, Java, Android Studio, Git, and GitHub" /></p>
-    </td>
-    <td valign="top" width="48%">
-      <h3>Currently exploring</h3>
-      <p><strong>Machine learning</strong><br />Testing ideas in Python notebooks and plotting the results.</p>
-      <p><strong>Computer vision</strong><br />Learning how to process images with OpenCV.</p>
-      <p><strong>Rust</strong><br />Getting comfortable with systems programming through small experiments.</p>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <picture>
+    <source media="(max-width: 600px)" srcset="assets/workbench-rail-mobile.svg" />
+    <img src="assets/workbench-rail.svg" width="100%" alt="Data and ML tools include Python, NumPy, pandas, Matplotlib, Jupyter, PyTorch, scikit-learn, TensorFlow, SciPy, and OpenCV. Web and API tools include TypeScript, React, FastAPI, Flask, and D3.js. Systems and tools include Rust, Java, Android Studio, Git, and GitHub. Currently exploring machine learning with Python notebooks, computer vision with OpenCV, and systems programming with Rust." />
+  </picture>
+</p>
 
-<h2 align="center">Recent GitHub activity</h2>
+<h2 align="center">GitHub activity · Last 90 days</h2>
 
 <p align="center">
   <a href="https://github.com/33GRIM33#js-contribution-activity">
-    <img src="https://github-readme-activity-graph.ashutosh-dwivedi0710.workers.dev/graph?username=33GRIM33&amp;bg_color=111726&amp;color=c5cbe0&amp;line=a3abc9&amp;point=e0e2f4&amp;area=true&amp;area_color=596783&amp;border_color=383f55&amp;hide_title=true&amp;radius=12&amp;height=280&amp;days=30" width="100%" alt="Line chart of my GitHub contributions over the past 30 days" />
+    <img src="https://github-readme-activity-graph.ashutosh-dwivedi0710.workers.dev/graph?username=33GRIM33&amp;bg_color=121a2a&amp;color=c5cbe0&amp;line=b3c6ea&amp;point=8191b2&amp;area=true&amp;area_color=596783&amp;border_color=3c4960&amp;hide_title=true&amp;grid=false&amp;radius=12&amp;height=255&amp;days=90" width="100%" alt="Line chart of my GitHub contributions over the past 90 days" />
   </a>
 </p>
