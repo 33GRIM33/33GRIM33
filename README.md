@@ -1,10 +1,11 @@
-<!-- Blue Cave screenshot and Knight character artwork by Team Cherry.
+<!-- City of Tears screenshot and Knight character artwork by Team Cherry.
+     Banner source: https://hollowknight.wiki/w/File:Screenshot_HK_Knight_05.png
      Reading frames sourced from https://github.com/ak-2045/hollow-knight-animated-sprite-sheet.
      Shade sprite sourced from https://hollowknight.fandom.com/es/wiki/Sombra. -->
 <p align="center">
   <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="assets/blue-cave-still.webp" />
-    <img src="assets/blue-cave.webp" width="100%" alt="Lakshya Rajdev. Still looking for a map. The Knight explores a luminous blue cavern." />
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/city-of-tears-bench-still.webp" />
+    <img src="assets/city-of-tears-bench.webp" width="100%" alt="Lakshya Rajdev. Still looking for a map. The Knight and Quirrel sit on a bench in the rainy City of Tears." />
   </picture>
 </p>
 
@@ -35,16 +36,31 @@
   </tr>
 </table>
 
+<h2 align="center">Tech stack</h2>
+
+<table>
+  <tr>
+    <td valign="top" width="52%">
+      <p><strong>Data &amp; ML</strong><br />
+        <img src="assets/workbench-data.svg" width="225" alt="Python, NumPy, pandas, Matplotlib, Jupyter, PyTorch, scikit-learn, TensorFlow, SciPy, and OpenCV" /></p>
+      <p><strong>Web &amp; APIs</strong><br />
+        <img src="assets/workbench-web.svg" width="225" alt="TypeScript, React, FastAPI, Flask, and D3.js" /></p>
+      <p><strong>Systems &amp; tools</strong><br />
+        <img src="assets/workbench-systems.svg" width="225" alt="Rust, Java, Android Studio, Git, and GitHub" /></p>
+    </td>
+    <td valign="top" width="48%">
+      <h3>Currently exploring</h3>
+      <p><strong>Machine learning</strong><br />Testing ideas in Python notebooks and plotting the results.</p>
+      <p><strong>Computer vision</strong><br />Learning how to process images with OpenCV.</p>
+      <p><strong>Rust</strong><br />Getting comfortable with systems programming through small experiments.</p>
+    </td>
+  </tr>
+</table>
+
 <h2 align="center">Recent GitHub activity</h2>
 
 <p align="center">
   <a href="https://github.com/33GRIM33#js-contribution-activity">
-    <img src="https://github-readme-activity-graph.ashutosh-dwivedi0710.workers.dev/graph?username=33GRIM33&amp;bg_color=14192b&amp;color=cac8e7&amp;line=aabaff&amp;point=eddeff&amp;area=true&amp;area_color=726ec0&amp;border_color=46416b&amp;hide_title=true&amp;radius=12&amp;height=280&amp;days=30" width="100%" alt="Line chart of my GitHub contributions over the past 30 days" />
+    <img src="https://github-readme-activity-graph.ashutosh-dwivedi0710.workers.dev/graph?username=33GRIM33&amp;bg_color=111726&amp;color=c5cbe0&amp;line=a3abc9&amp;point=e0e2f4&amp;area=true&amp;area_color=596783&amp;border_color=383f55&amp;hide_title=true&amp;radius=12&amp;height=280&amp;days=30" width="100%" alt="Line chart of my GitHub contributions over the past 30 days" />
   </a>
-</p>
-
-<h2 align="center">Tech stack</h2>
-
-<p align="center">
-  <img src="assets/stack.svg" width="300" alt="Python, Rust, TypeScript, Java, React, FastAPI, Flask, D3.js, Android Studio, Git, GitHub, NumPy, pandas, Matplotlib, Jupyter, PyTorch, scikit-learn, TensorFlow, SciPy, and OpenCV" />
 </p>
