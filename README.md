@@ -13,8 +13,8 @@
   <tr>
     <td align="center" valign="middle">
       <picture>
-        <source media="(prefers-reduced-motion: reduce)" srcset="assets/knight-reading-close-still.webp" />
-        <img src="assets/knight-reading-close.webp" width="178" alt="The little Knight opens a map" />
+        <source media="(prefers-reduced-motion: reduce)" srcset="assets/knight-rose-crystals-still.webp" />
+        <img src="assets/knight-rose-crystals.webp" width="178" alt="The little Knight opens a map between rose-colored crystal clusters" />
       </picture>
     </td>
     <td valign="middle">
@@ -31,7 +31,7 @@
       <p>I’m learning Rust and trying out ML ideas in Python. I like reading just enough docs to give something a go. This usually ends with eleven more docs tabs.</p>
     </td>
     <td align="center" valign="middle">
-      <img src="assets/shade-drift.svg" width="208" alt="The Shade from Hollow Knight glides through blue fog with rising lavender particles" />
+      <img src="assets/shade-rose-crystals.svg" width="208" alt="The Shade glides through blue fog under hanging pink crystals" />
     </td>
   </tr>
 </table>
