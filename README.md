@@ -1,5 +1,10 @@
 <p align="center">
-  <img src="assets/lantern-grotto.svg" width="100%" alt="Lakshya Rajdev. A mint-green firefly drifts through plum-colored ruins." />
+  <picture>
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/lake-of-unn-still.webp" />
+    <img src="assets/lake-of-unn.webp" width="100%" alt="Lakshya Rajdev. Still looking for a map. The Knight crosses a bridge at the Lake of Unn." />
+  </picture>
+  <br />
+  <sub>Lake of Unn screenshot from <a href="https://www.hollowknight.com/">Hollow Knight</a> by Team Cherry.</sub>
 </p>
 
 <table>
