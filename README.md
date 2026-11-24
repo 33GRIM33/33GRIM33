@@ -1,33 +1,27 @@
-<div align="center">
+<p align="center">
+  <img src="assets/orbit.svg" width="100%" alt="33GRIM33 — Code. Build. Respawn. An engraved ringed planet crosses a midnight sky." />
+</p>
 
-<img src="assets/banner.gif" width="100%" alt="33GRIM33 — Code. Build. Respawn. A neon gaming banner with a gently animated grid and controller." />
+<h2 align="center">A little about me</h2>
 
-[View the still banner](assets/banner-still.png)
+I build software around two questions. How can a phone make it easier to put it down? And how can a dashboard make a noisy dataset easier to understand? **AttentionTwin** and **Dev Pulse** are my answers so far. I also keep a Rust workspace for smaller experiments in systems programming.
 
-### Digital wellness, developer tools, and data visualization
+<h2 align="center">Selected work</h2>
 
-I build Android tools for more intentional screen time and dashboards that help developers explore technology trends.
+<p align="center">
+  <a href="https://github.com/33GRIM33/casecade"><img src="assets/cover-0.svg" width="32%" alt="Explore AttentionTwin" /></a>
+  <a href="https://github.com/33GRIM33/Dev-Pulse"><img src="assets/cover-1.svg" width="32%" alt="Explore Dev Pulse" /></a>
+  <a href="https://github.com/33GRIM33/rust-projects"><img src="assets/cover-2.svg" width="32%" alt="Explore Rust projects" /></a>
+</p>
 
-[Projects](https://github.com/33GRIM33?tab=repositories) &nbsp; / &nbsp; [AttentionTwin APK](https://github.com/33GRIM33/casecade/blob/main/release-v5/AttentionTwin-5.0.apk) &nbsp; / &nbsp; [Dev Pulse](https://github.com/33GRIM33/Dev-Pulse)
+- **[AttentionTwin](https://github.com/33GRIM33/casecade)** brings focus sessions, break reminders, scrolling goals, and notification review together on Android. [Download the APK](https://github.com/33GRIM33/casecade/blob/main/release-v5/AttentionTwin-5.0.apk)
+- **[Dev Pulse](https://github.com/33GRIM33/Dev-Pulse)** explores developer trends through interactive D3 charts, with React on the frontend and Python and FastAPI behind it.
+- **[Rust projects](https://github.com/33GRIM33/rust-projects)** is my collection of systems programming exercises and developer-tool experiments.
 
-</div>
-
-<h3 align="center">Tech stack</h3>
+<h2 align="center">Tech stack</h2>
 
 <p align="center">
   <img src="assets/stack.svg" width="240" alt="Rust, Python, TypeScript, Java, React, FastAPI, D3.js, Android Studio, Git, and GitHub" />
 </p>
 
-## Featured projects
-
-[![AttentionTwin: focus sessions, better breaks, scrolling goals and smart notification review. React, TypeScript, Java and Android.](assets/attentiontwin.svg)](https://github.com/33GRIM33/casecade)
-
-[![Dev Pulse: a tech intelligence dashboard built with Python, FastAPI, React and D3.js.](assets/dev-pulse.svg)](https://github.com/33GRIM33/Dev-Pulse)
-
-[![Rust projects: a workspace for projects, experiments and learning.](assets/rust.svg)](https://github.com/33GRIM33/rust-projects)
-
-<div align="center">
-
-<sub>CODE. BUILD. RESPAWN.</sub>
-
-</div>
+<p align="center"><a href="https://github.com/33GRIM33?tab=repositories">Explore all repositories ↗</a></p>
