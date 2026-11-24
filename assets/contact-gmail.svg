@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 47">
+  <defs>
+    <linearGradient id="stone" x2="0" y2="1">
+      <stop stop-color="#31304c"/>
+      <stop offset="1" stop-color="#111927"/>
+    </linearGradient>
+  </defs>
+  <path d="M3 23 13 4h144l10 19-10 20H13Z" fill="url(#stone)" stroke="#baafd1"/>
+  <path d="M20 8h130m-130 31h130" stroke="#baafd1" opacity=".36"/>
+  <path d="M10 23l3-4 3 4-3 4Zm144 0 3-4 3 4-3 4Z" fill="#baafd1"/>
+  <g fill="none" stroke="#e7dbef" stroke-width="1.65" stroke-linejoin="round"><rect x="31" y="16" width="21" height="14" rx="2"/><path d="m32 18 9.5 7 9.5-7"/></g>
+  <text x="61" y="29" fill="#f4eefb" font-family="Georgia, serif" font-size="19">Gmail</text>
+</svg>

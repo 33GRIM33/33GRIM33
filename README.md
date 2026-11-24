@@ -36,12 +36,18 @@
   </tr>
 </table>
 
+<p align="center">
+  <a href="mailto:lakshyarajdev0@gmail.com"><img src="assets/contact-gmail.svg" width="132" alt="Email Lakshya at Gmail" /></a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/lakshya-rajdev"><img src="assets/contact-linkedin.svg" width="132" alt="Lakshya Rajdev on LinkedIn" /></a>
+</p>
+
 <h2 align="center">Tech stack</h2>
 
 <p align="center">
   <picture>
-    <source media="(max-width: 600px)" srcset="assets/workbench-rail-mobile.svg" />
-    <img src="assets/workbench-rail.svg" width="100%" alt="Data and ML tools include Python, NumPy, pandas, Matplotlib, Jupyter, PyTorch, scikit-learn, TensorFlow, SciPy, and OpenCV. Web and API tools include TypeScript, React, FastAPI, Flask, and D3.js. Systems and tools include Rust, Java, Android Studio, Git, and GitHub. Currently exploring machine learning with Python notebooks, computer vision with OpenCV, and systems programming with Rust." />
+    <source media="(max-width: 600px)" srcset="assets/workbench-grotto-mobile.svg" />
+    <img src="assets/workbench-grotto.svg" width="100%" alt="Data and ML tools include Python, NumPy, pandas, Matplotlib, Jupyter, PyTorch, scikit-learn, TensorFlow, SciPy, and OpenCV. Web and API tools include TypeScript, React, FastAPI, Flask, and D3.js. Systems and tools include Rust, Java, Android Studio, Git, and GitHub. Currently exploring machine learning with Python notebooks, computer vision with OpenCV, and systems programming with Rust." />
   </picture>
 </p>
 
@@ -49,6 +55,6 @@
 
 <p align="center">
   <a href="https://github.com/33GRIM33#js-contribution-activity">
-    <img src="https://github-readme-activity-graph.ashutosh-dwivedi0710.workers.dev/graph?username=33GRIM33&amp;bg_color=121a2a&amp;color=c5cbe0&amp;line=b3c6ea&amp;point=8191b2&amp;area=true&amp;area_color=596783&amp;border_color=3c4960&amp;hide_title=true&amp;grid=false&amp;radius=12&amp;height=255&amp;days=90" width="100%" alt="Line chart of my GitHub contributions over the past 90 days" />
+    <img src="assets/activity-90-days.svg" width="100%" alt="Daily GitHub contributions over 90 days, with axis labels every 10 days. Open my live GitHub activity for details." />
   </a>
 </p>
