@@ -4,8 +4,8 @@
      Shade sprite sourced from https://hollowknight.fandom.com/es/wiki/Sombra. -->
 <p align="center">
   <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="assets/city-of-tears-nameplate-still.webp" />
-    <img src="assets/city-of-tears-nameplate.webp" width="100%" alt="Lakshya Rajdev. Still looking for a map. The Knight and Quirrel sit on a bench in the rainy City of Tears." />
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/city-of-tears-crystal-dusk-still.webp" />
+    <img src="assets/city-of-tears-crystal-dusk.webp" width="100%" alt="Lakshya Rajdev. Still looking for a map. Rose-colored sparks drift past the Knight and Quirrel in the City of Tears." />
   </picture>
 </p>
 
@@ -18,6 +18,7 @@
       </picture>
     </td>
     <td valign="middle">
+      <img src="assets/bio-rose-lanterns.svg" width="156" align="right" alt="" />
       <h2>Hey, I’m Lakshya</h2>
       <p>I’m a tech enthusiast with a soft spot for machine learning. Give me a dataset and a question, and I’ll happily spend an afternoon seeing what I can find with a notebook and a few plots.</p>
     </td>
@@ -27,6 +28,7 @@
 <table>
   <tr>
     <td valign="middle">
+      <div align="left"><img src="assets/bio-silver-lanterns.svg" width="148" alt="" /></div>
       <h2>What I’m exploring</h2>
       <p>I’m learning Rust and trying out ML ideas in Python. I like reading just enough docs to give something a go. This usually ends with eleven more docs tabs.</p>
     </td>

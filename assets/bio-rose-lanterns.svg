@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 156 48">
+  <defs>
+    <radialGradient id="glow">
+      <stop stop-color="#ec85be" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#ec85be" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <style>
+    .flicker { animation: glow 3.8s ease-in-out infinite }
+    .late { animation-delay: -1.8s }
+    .spark { animation: rise 4.1s ease-in-out infinite }
+    @keyframes glow { 50% {opacity:.5} }
+    @keyframes rise { 50% {transform:translateY(-3px);opacity:.34} }
+    @media (prefers-reduced-motion: reduce) {
+      .flicker,.spark { animation:none }
+    }
+  </style>
+  <path d="M21 4h111m-105 1q11 1 18 8m80-8q-10 1-16 7" fill="none" stroke="#8c789f" opacity=".6"/>
+  <path d="M31 4l4-3 4 3-4 3zm88 0 4-3 4 3-4 3z" fill="#a48eae"/>
+  <g stroke="#ae9cb9" stroke-linecap="round" stroke-dasharray="1 2" opacity=".85">
+    <path d="M62 5v11m26-11v18m28-18v9" fill="none"/>
+  </g>
+  <g class="flicker">
+    <circle cx="62" cy="25" r="14" fill="url(#glow)"/>
+    <circle cx="88" cy="33" r="20" fill="url(#glow)"/>
+    <circle cx="116" cy="22" r="12" fill="url(#glow)"/>
+  </g>
+  <g stroke="#f4cae5" stroke-width=".72" stroke-linejoin="round">
+    <path d="M62 16l-5 6 5 11 5-11z" fill="#a572af"/>
+    <path d="M88 22l-7 8 2 8 5 8 5-8 2-8z" fill="#c18ab7"/>
+    <path d="M116 14l-4 5 4 10 4-10z" fill="#8b81b8"/>
+    <path d="m57 22 5 1 5-1m-5 1v10m19-3 7 2 7-2m-7 2v14m24-27 4 2 4-2" fill="none" opacity=".7"/>
+  </g>
+  <g class="spark" fill="#f6bedf">
+    <circle cx="45" cy="31" r="1.2"/><circle cx="106" cy="39" r="1.1"/>
+    <path d="m130 27 2-2 2 2-2 2z"/>
+  </g>
+</svg>
