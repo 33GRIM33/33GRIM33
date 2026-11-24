@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 310">
+  <defs>
+    <radialGradient id="stone" cx=".74" cy=".48" r=".7">
+      <stop stop-color="#426071"/>
+      <stop offset=".6" stop-color="#1a3244"/>
+      <stop offset="1" stop-color="#0f1928"/>
+    </radialGradient>
+    <radialGradient id="glow">
+      <stop stop-color="#ffc982" stop-opacity=".61"/>
+      <stop offset="1" stop-color="#ffc982" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <style>
+    .firefly { animation: float 6s ease-in-out infinite }
+    .motes { animation: drift 8s ease-in-out infinite }
+    @keyframes float { 50% { transform: translate(8px,-14px) } }
+    @keyframes drift { 50% { transform: translate(-5px,-12px); opacity:.35 } }
+    @media (prefers-reduced-motion: reduce) { .firefly,.motes { animation:none } }
+  </style>
+  <rect width="1080" height="310" fill="url(#stone)"/>
+  <path d="M0 0h1080v30l-52-7-43 22-33-21-126-4-31-20H226l-63 32-45-4-55 40-24 60-39 21z" fill="#0a1421"/>
+  <path d="M460 285V166a80 80 0 0 1 160 0v119m43 0V146a125 125 0 0 1 250 0v139m25 0V181a70 70 0 0 1 140 0" fill="none" stroke="#7795a0" stroke-width="10" opacity=".28"/>
+  <path d="M676 269V146a112 112 0 0 1 224 0v123m-236-91 14-4m-14 50 14 4m220-52 16-4m-18 54 18 3m-84-201-9 17m-62-18 4 20" fill="none" stroke="#94b1b5" stroke-width="2" opacity=".35"/>
+  <path d="M0 265 70 253l72 19 60-10 74 19 141-12 90 15 98-15 49-21 74 8 98-16 115 15 72-12 67 14v53H0z" fill="#0b1722"/>
+  <path d="M168 298q83-25 161-1m301 2q59-17 146-9m52 11q58-12 124-3" fill="none" stroke="#426477" opacity=".5"/>
+  <g fill="#2b4852" stroke="#2b4852" stroke-width="2">
+    <path transform="translate(61 277) scale(1 1)" d="M0 0Q-4-29 28-58Q26-65 38-72Q37-60 28-58M1-9Q-25-10-32-29Q-12-27 1-12M4-18Q19-34 36-29Q27-17 4-18M8-28Q-12-37-13-51Q2-48 10-33M17-43Q25-56 42-52Q31-43 17-43"/>
+    <path transform="translate(106 280) scale(0.6 0.6)" d="M0 0Q-4-29 28-58Q26-65 38-72Q37-60 28-58M1-9Q-25-10-32-29Q-12-27 1-12M4-18Q19-34 36-29Q27-17 4-18M8-28Q-12-37-13-51Q2-48 10-33M17-43Q25-56 42-52Q31-43 17-43"/>
+    <path transform="translate(1030 280) scale(-1 1)" d="M0 0Q-4-29 28-58Q26-65 38-72Q37-60 28-58M1-9Q-25-10-32-29Q-12-27 1-12M4-18Q19-34 36-29Q27-17 4-18M8-28Q-12-37-13-51Q2-48 10-33M17-43Q25-56 42-52Q31-43 17-43"/>
+    <path transform="translate(976 286) scale(-0.63 0.63)" d="M0 0Q-4-29 28-58Q26-65 38-72Q37-60 28-58M1-9Q-25-10-32-29Q-12-27 1-12M4-18Q19-34 36-29Q27-17 4-18M8-28Q-12-37-13-51Q2-48 10-33M17-43Q25-56 42-52Q31-43 17-43"/>
+  </g>
+  <g class="motes" fill="#adddd6" opacity=".8">
+    <circle cx="150" cy="101" r="1.4"/>
+    <circle cx="211" cy="208" r="1.7999999999999998"/>
+    <circle cx="369" cy="103" r="2.2"/>
+    <circle cx="549" cy="188" r="1.4"/>
+    <circle cx="691" cy="115" r="1.7999999999999998"/>
+    <circle cx="826" cy="72" r="2.2"/>
+    <circle cx="921" cy="140" r="1.4"/>
+    <circle cx="1002" cy="197" r="1.7999999999999998"/>
+  </g>
+  <g class="firefly">
+    <g transform="translate(789 165) rotate(-13)">
+      <circle cy="19" r="103" fill="url(#glow)"/>
+      <path d="M-8 4C-48-33-64 6-43 22q13 9 35-9M8 4C48-33 64 6 43 22q-13 9-35-9" fill="#8bb4b6" fill-opacity=".52" stroke="#bde2dc" stroke-width="2"/>
+      <path d="M-6-9q-4-16-15-19m28 19q4-16 14-19" fill="none" stroke="#f5e1ad" stroke-width="2" stroke-linecap="round"/>
+      <path d="M-13 11q0 23 13 28 13-5 13-28" fill="#e4a65f" stroke="#ffe4af" stroke-width="2"/>
+      <path d="M-11 23h22m-19 8H8" stroke="#74584a" stroke-width="2"/>
+      <ellipse cy="2" rx="17" ry="14" fill="#263843" stroke="#e6d9ae" stroke-width="2"/>
+      <circle cx="-6" cy="1" r="2.4" fill="#ffe8b7"/>
+      <circle cx="6" cy="1" r="2.4" fill="#ffe8b7"/>
+    </g>
+  </g>
+  <text x="108" y="171" fill="#eef3e8" font-family="Georgia,serif" font-size="66">Lakshya Rajdev</text>
+  <path d="M110 193h64" stroke="#e4b77e" stroke-width="2"/>
+</svg>
