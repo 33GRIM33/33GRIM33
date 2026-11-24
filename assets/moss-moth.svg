@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 156 132">
+  <style>
+    .moth {animation: bob 5.8s ease-in-out infinite}
+    .wings {transform-origin:78px 67px;animation: flutter 3.4s ease-in-out infinite}
+    @keyframes bob { 50% {transform:translate(4px,-7px)} }
+    @keyframes flutter { 12%,24% {transform:scaleX(.82)} 18%,32% {transform:scaleX(1)} }
+    @media (prefers-reduced-motion:reduce) { .moth,.wings {animation:none} }
+  </style>
+  <path d="M20 83q-6-37 28-53m54 75q27-13 32-36" fill="none" stroke="#819a97" stroke-dasharray="1 7" stroke-linecap="round"/>
+  <g fill="#a8e7cc"><circle cx="22" cy="67" r="2"/><circle cx="131" cy="79" r="2"/><circle cx="111" cy="29" r="1.6"/></g>
+  <g class="moth">
+    <g class="wings" stroke="#b698c1" stroke-width="2" stroke-linejoin="round">
+      <path d="M76 71Q49 17 25 33q-9 13 3 37 14 24 48 10m4-9q27-54 51-38 9 13-3 37-14 24-48 10" fill="#66507c"/>
+      <path d="M72 76Q41 61 37 81q0 15 18 18 17 0 20-17m9-6q31-15 35 5 0 15-18 18-17 0-20-17" fill="#947c9f"/>
+      <path d="M32 44q20 4 33 20m59-20q-20 4-33 20" fill="none" stroke="#a0cbbc"/>
+    </g>
+    <path d="M73 51q-1-13-12-17m21 17q1-13 12-17" fill="none" stroke="#9dc7ba" stroke-width="2" stroke-linecap="round"/>
+    <path d="M65 62q0-15 13-14 14 0 14 14l-2 14q-3 15-12 16-8 0-11-16z" fill="#b2ccba" stroke="#425b59" stroke-width="2"/>
+    <path d="M70 77q8 5 16 0" fill="none" stroke="#64877a"/>
+    <circle cx="73" cy="61" r="2" fill="#273936"/><circle cx="83" cy="61" r="2" fill="#273936"/>
+  </g>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 156 132">
+  <defs>
+    <radialGradient id="light">
+      <stop stop-color="#a8f3d4" stop-opacity=".65"/>
+      <stop offset="1" stop-color="#a8f3d4" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <style>
+    .beetle { animation: hover 5s ease-in-out infinite }
+    .light { animation: glow 5s ease-in-out infinite }
+    @keyframes hover { 50% {transform:translateY(-6px)} }
+    @keyframes glow { 50% {opacity:.55} }
+    @media (prefers-reduced-motion:reduce) { .beetle,.light {animation:none} }
+  </style>
+  <ellipse cx="72" cy="116" rx="37" ry="5" fill="#5a476e" opacity=".35"/>
+  <g class="beetle" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M53 76Q38 89 36 104q23-4 34 4 17 4 26-5L82 73" fill="#593e6c" stroke="#a58db9" stroke-width="2"/>
+    <path d="M65 83l-9 17m20-15 4 15" fill="none" stroke="#aa8dbf" opacity=".65"/>
+    <path d="M61 44Q43 34 46 22m30 20q12-13 8-24" fill="none" stroke="#a3c6ba" stroke-width="3"/>
+    <circle cx="45" cy="22" r="3" fill="#b9ead6"/>
+    <circle cx="83" cy="18" r="3" fill="#b9ead6"/>
+    <path d="M43 60q0-18 20-22 24-3 31 19 4 19-18 25-30 5-33-22z" fill="#d9d7b8" stroke="#544866" stroke-width="2"/>
+    <path d="M69 39q-3 23-18 32" fill="none" stroke="#9d9d91" stroke-width="2"/>
+    <ellipse cx="73" cy="62" rx="3" ry="4.6" fill="#2d293a"/>
+    <ellipse cx="84" cy="59" rx="3" ry="4.6" fill="#2d293a"/>
+    <path d="M87 86l17-11v13" fill="none" stroke="#a58891" stroke-width="3"/>
+    <circle class="light" cx="105" cy="93" r="35" fill="url(#light)"/>
+    <rect x="99" y="86" width="12" height="15" rx="4" fill="#b9f9df" stroke="#5f988e" stroke-width="2"/>
+  </g>
+</svg>

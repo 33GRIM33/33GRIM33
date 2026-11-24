@@ -1,10 +1,26 @@
 <p align="center">
-  <img src="assets/lantern-grotto.svg" width="100%" alt="Lakshya Rajdev. A golden firefly floats through blue stone ruins." />
+  <img src="assets/lantern-grotto.svg" width="100%" alt="Lakshya Rajdev. A mint-green firefly drifts through plum-colored ruins." />
 </p>
 
-## Hey, I’m Lakshya
+<table>
+  <tr>
+    <td align="center" valign="middle"><img src="assets/lantern-beetle.svg" width="120" alt="A little beetle carrying a glowing lantern" /></td>
+    <td valign="middle">
+      <h2>Hey, I’m Lakshya</h2>
+      <p>I’m a tech enthusiast with a soft spot for machine learning. Give me a dataset and a question, and I’ll happily spend an afternoon seeing what I can find with a notebook and a few plots.</p>
+    </td>
+  </tr>
+</table>
 
-I’m a tech enthusiast with a soft spot for machine learning. I like taking a dataset, asking it a question, and seeing how far I can get with a notebook and a few plots. I’m also learning Rust, usually with more docs tabs open than I meant to have.
+<table>
+  <tr>
+    <td valign="middle">
+      <h2>What I’m exploring</h2>
+      <p>I’m learning Rust and trying out ML ideas in Python. I like reading just enough docs to give something a go. This usually ends with eleven more docs tabs.</p>
+    </td>
+    <td align="center" valign="middle"><img src="assets/moss-moth.svg" width="120" alt="A lavender moth with mint markings flutters among tiny lights" /></td>
+  </tr>
+</table>
 
 <h2 align="center">Tech stack</h2>
 
