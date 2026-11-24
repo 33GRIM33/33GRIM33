@@ -4,39 +4,24 @@
      Shade sprite sourced from https://hollowknight.fandom.com/es/wiki/Sombra. -->
 <p align="center">
   <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="assets/city-of-tears-crystal-dusk-still.webp" />
-    <img src="assets/city-of-tears-crystal-dusk.webp" width="100%" alt="Lakshya Rajdev. Still looking for a map. Rose-colored sparks drift past the Knight and Quirrel in the City of Tears." />
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/crystal-dusk-serif-still.webp" />
+    <img src="assets/crystal-dusk-serif.webp" width="100%" alt="Lakshya Rajdev. Still looking for a map. Rose-colored sparks drift past the Knight and Quirrel in the City of Tears." />
   </picture>
 </p>
 
-<table>
-  <tr>
-    <td align="center" valign="middle">
-      <picture>
-        <source media="(prefers-reduced-motion: reduce)" srcset="assets/knight-rose-crystals-still.webp" />
-        <img src="assets/knight-rose-crystals.webp" width="178" alt="The little Knight opens a map between rose-colored crystal clusters" />
-      </picture>
-    </td>
-    <td valign="middle">
-      <img src="assets/bio-rose-lanterns.svg" width="156" align="right" alt="" />
-      <h2>Hey, I’m Lakshya</h2>
-      <p>I’m a tech enthusiast with a soft spot for machine learning. Give me a dataset and a question, and I’ll happily spend an afternoon seeing what I can find with a notebook and a few plots.</p>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <picture>
+    <source media="(max-width: 600px)" srcset="assets/bio-intro-finished-mobile.svg" />
+    <img src="assets/bio-intro-finished.svg" width="100%" alt="Hey, I’m Lakshya. I’m a tech enthusiast with a soft spot for machine learning. Give me a dataset and a question, and I’ll happily spend an afternoon seeing what I can find with a notebook and a few plots." />
+  </picture>
+</p>
 
-<table>
-  <tr>
-    <td valign="middle">
-      <div align="left"><img src="assets/bio-silver-lanterns.svg" width="148" alt="" /></div>
-      <h2>What I’m exploring</h2>
-      <p>I’m learning Rust and trying out ML ideas in Python. I like reading just enough docs to give something a go. This usually ends with eleven more docs tabs.</p>
-    </td>
-    <td align="center" valign="middle">
-      <img src="assets/shade-rose-crystals.svg" width="208" alt="The Shade glides through blue fog under hanging pink crystals" />
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <picture>
+    <source media="(max-width: 600px)" srcset="assets/bio-exploring-finished-mobile.svg" />
+    <img src="assets/bio-exploring-finished.svg" width="100%" alt="What I’m exploring. I’m learning Rust and trying out ML ideas in Python. I like reading just enough docs to give something a go. This usually ends with eleven more docs tabs." />
+  </picture>
+</p>
 
 <p align="center">
   <a href="mailto:lakshyarajdev0@gmail.com"><img src="assets/contact-gmail.svg" width="132" alt="Email Lakshya at Gmail" /></a>
@@ -48,8 +33,8 @@
 
 <p align="center">
   <picture>
-    <source media="(max-width: 600px)" srcset="assets/workbench-grotto-mobile.svg" />
-    <img src="assets/workbench-grotto.svg" width="100%" alt="Data and ML tools include Python, NumPy, pandas, Matplotlib, Jupyter, PyTorch, scikit-learn, TensorFlow, SciPy, and OpenCV. Web and API tools include TypeScript, React, FastAPI, Flask, and D3.js. Systems and tools include Rust, Java, Android Studio, Git, and GitHub. Currently exploring machine learning with Python notebooks, computer vision with OpenCV, and systems programming with Rust." />
+    <source media="(max-width: 600px)" srcset="assets/workbench-polished-mobile.svg" />
+    <img src="assets/workbench-polished.svg" width="100%" alt="Data and ML tools include Python, NumPy, pandas, Matplotlib, Jupyter, PyTorch, scikit-learn, TensorFlow, SciPy, and OpenCV. Web and API tools include TypeScript, React, FastAPI, Flask, and D3.js. Systems and tools include Rust, Java, Android Studio, Git, and GitHub. Currently exploring machine learning with Python notebooks, computer vision with OpenCV, and systems programming with Rust." />
   </picture>
 </p>
 

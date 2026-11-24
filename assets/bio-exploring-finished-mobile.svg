@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 390 152">
+  <title>What I’m exploring</title>
+  <desc>I’m learning Rust and trying out ML ideas in Python. I like reading just enough docs to give something a go. This usually ends with eleven more docs tabs.</desc>
+  <style></style>
+  <defs><clipPath id="card-edge"><rect width="390" height="152" rx="8"/></clipPath></defs>
+  <rect x=".5" y=".5" width="389" height="151" rx="8" fill="#101620" stroke="#344056"/>
+  <g clip-path="url(#card-edge)"><svg x="0" y="0" width="112" height="34" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 156 48">
+  <defs>
+    <radialGradient id="glow">
+      <stop stop-color="#a8b9ff" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#a8b9ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <style>
+    .flicker { animation: glow 3.8s ease-in-out infinite }
+    .late { animation-delay: -1.8s }
+    .spark { animation: rise 4.1s ease-in-out infinite }
+    @keyframes glow { 50% {opacity:.5} }
+    @keyframes rise { 50% {transform:translateY(-3px);opacity:.34} }
+    @media (prefers-reduced-motion: reduce) {
+      .flicker,.spark { animation:none }
+    }
+  </style>
+  <path d="M0 1h156M20 1q23 4 34 20m77-20q-17 3-25 12" fill="none" stroke="#7688a5" opacity=".7"/>
+  <path d="m26 4 4-3 4 3-4 3zm94 0 4-3 4 3-4 3z" fill="#8f9eb7"/>
+  <path d="M57 1v20m34-20v12m20-12v16" fill="none" stroke="#b0a5c7" stroke-dasharray="1 2" stroke-linecap="round"/>
+  <g class="flicker late">
+    <circle cx="57" cy="33" r="21" fill="url(#glow)"/>
+    <circle cx="91" cy="24" r="13" fill="url(#glow)"/>
+  </g>
+  <path d="M57 20q8 6 9 11l-2 8-7 6-7-6-2-8z" fill="#4d517e" stroke="#aeb0d2"/>
+  <path d="m57 25-4 6 4 9 4-9z" fill="#dfb1de" stroke="#f0d8ee" stroke-width=".75"/>
+  <path d="M49 33h16m-8-12v23m-2 1h4" fill="none" stroke="#e3d7ef" stroke-width=".75" opacity=".78"/>
+  <path d="M91 13l-5 6 5 12 5-12z" fill="#b580b2" stroke="#ecc5eb" stroke-width=".8"/>
+  <path d="M111 16l-3 4 3 6 3-6z" fill="#91acd1" stroke="#cfdef1" stroke-width=".65"/>
+  <g class="spark late" fill="#e6bdde">
+    <circle cx="38" cy="34" r="1.2"/><circle cx="75" cy="43" r="1"/>
+    <path d="m124 29 2-2 2 2-2 2z"/>
+  </g>
+</svg></g>
+  <path d="M309 1V151M10 62H299" stroke="#344056"/>
+  <svg x="317" y="50" width="65" height="51" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 214 168">
+  <defs>
+    <linearGradient id="panel" x2="0.8" y2="1">
+      <stop stop-color="#172437"/>
+      <stop offset="1" stop-color="#101827"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop stop-color="#acabe5" stop-opacity=".83"/>
+      <stop offset=".58" stop-color="#7786c8" stop-opacity=".49"/>
+      <stop offset="1" stop-color="#626faa" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <style>
+    .shade { transform-box:fill-box; transform-origin:center; animation:glide 3s ease-in-out infinite }
+    .particle { animation:rise 2.2s ease-out infinite }
+    .delayed { animation-delay:-1.15s }
+    .wisp { animation:trail 3s ease-out infinite }
+    @keyframes glide {
+      30% { transform:translate(-8px,-9px) rotate(-6deg) }
+      68% { transform:translate(6px,-3px) rotate(4deg) }
+    }
+    @keyframes rise {
+      from { opacity:0; transform:translate(6px,7px) }
+      35% { opacity:.95 }
+      to { opacity:0; transform:translate(-8px,-15px) }
+    }
+    @keyframes trail {
+      0%,100% { opacity:.05; transform:translateX(-5px) }
+      35% { opacity:.45 }
+      75% { opacity:.12; transform:translateX(7px) }
+    }
+    @media (prefers-reduced-motion: reduce) { .shade,.particle,.wisp { animation:none } }
+  </style>
+  <rect x="1" y="1" width="212" height="166" rx="14" fill="url(#panel)" stroke="#34435c"/>
+  <ellipse cx="105" cy="85" rx="104" ry="78" fill="url(#halo)"/>
+  <g class="wisp" fill="none" stroke="#aebce6" stroke-width="1.4" stroke-linecap="round" opacity=".3">
+    <path d="M158 88q16-7 32-2m-30 14q18-3 29 2"/>
+  </g>
+  <g fill="#c6d3ff" opacity=".7">
+    <circle class="particle" cx="38" cy="95" r="2.4"/>
+    <circle class="particle delayed" cx="167" cy="52" r="2"/>
+    <circle class="particle" cx="187" cy="105" r="1.6"/>
+    <circle class="particle delayed" cx="31" cy="126" r="1.5"/>
+    <circle class="particle" cx="147" cy="134" r="1.9"/>
+  </g>
+  <image class="shade" x="29" y="24" width="154" height="124" xlink:href="data:image/png;base64,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"/>
+  <g fill="#aa719f" stroke="#e1abcf" stroke-width=".85" stroke-linejoin="round">
+    <path d="M173 1v23m16-23v16" fill="none" stroke="#8383a9" stroke-dasharray="2 2"/>
+    <circle cx="173" cy="23" r="1.5" fill="#ead4e7"/>
+    <path d="M173 25l-5 7 2 9 3 4 4-4 2-9z"/>
+    <path d="M173 25v9l4 7 2-9z" fill="#674b77" stroke-width=".6"/>
+    <path d="M189 18l-3 4 1 5 2 3 3-3 1-5z" opacity=".7"/>
+    <path d="M22 151l-2-15 3-8 7 6 1 17zM32 151l2-12 4-5 5 6-3 11z" opacity=".68"/>
+  </g>
+  <circle class="particle delayed" cx="177" cy="52" r="2.1" fill="#efadd9"/>
+  <circle class="particle" cx="46" cy="135" r="1.7" fill="#efadd9"/>
+</svg>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="10" y="52" fill="#eef0fa" font-size="17" font-weight="650">What I’m exploring</text>
+    <g fill="#cfdaeb" font-size="13">
+      <text x="10" y="78">I’m learning Rust and trying out ML ideas in</text>
+<text x="10" y="96">Python. I like reading just enough docs to give</text>
+<text x="10" y="114">something a go. This usually ends with eleven</text>
+<text x="10" y="132">more docs tabs.</text>
+    </g>
+  </g>
+</svg>
